@@ -56,7 +56,7 @@
   "course": "С Linux администратора до DevOPS",
   "topic": "Управление конфигурацией Ansible",
   "title": "Урок 2: Пример Playbook и использование переменных",
-  "lesson": "Playbook в Ansible — это последовательность задач, которые описывают, как настроить систему. Также можно использовать переменные для динамической настройки.\n\nПример playbook:\nyaml\nКопироватьРедактировать\n- hosts: all\n  become: yes\n  tasks:\n    - name: Установить nginx\n      yum:\n        name: nginx\n        state: present\n    - name: Запустить nginx\n      service:\n        name: nginx\n        state: started\n\nПеременные могут быть:\nЛокальные, определенные в playbook;\nГлобальные, определенные в инвентаре или в отдельном файле."
+  "lesson": "Playbook в Ansible — это последовательность задач, которые описывают, как настроить систему. Также можно использовать переменные для динамической настройки.\n\nПример playbook:\n- hosts: all\n  become: yes\n  tasks:\n    - name: Установить nginx\n      yum:\n        name: nginx\n        state: present\n    - name: Запустить nginx\n      service:\n        name: nginx\n        state: started\n\nПеременные могут быть:\nЛокальные, определенные в playbook;\nГлобальные, определенные в инвентаре или в отдельном файле."
 },
 {
   "_id": {
@@ -76,7 +76,7 @@
   "course": "С Linux администратора до DevOPS",
   "topic": "Работа с Docker",
   "title": "Урок 2: Работа с Docker Compose",
-  "lesson": "Docker Compose — это инструмент для определения и запуска многоконтейнерных Docker приложений. Он использует файл docker-compose.yml для конфигурации.\n\nПример файла docker-compose.yml:\nyaml\nКопироватьРедактировать\nversion: '3'\nservices:\n  web:\n    image: nginx\n    ports:\n      - \"8080:80\"\n  db:\n    image: postgres\n    environment:\n      POSTGRES_PASSWORD: example\n\nОсновные команды:\ndocker-compose up — запускает все контейнеры из docker-compose.yml;\ndocker-compose down — останавливает и удаляет контейнеры."
+  "lesson": "Docker Compose — это инструмент для определения и запуска многоконтейнерных Docker приложений. Он использует файл docker-compose.yml для конфигурации.\n\nПример файла docker-compose.yml:\nversion: '3'\nservices:\n  web:\n    image: nginx\n    ports:\n      - \"8080:80\"\n  db:\n    image: postgres\n    environment:\n      POSTGRES_PASSWORD: example\n\nОсновные команды:\ndocker-compose up — запускает все контейнеры из docker-compose.yml;\ndocker-compose down — останавливает и удаляет контейнеры."
 },
 {
   "_id": {
@@ -96,7 +96,7 @@
   "course": "С Linux администратора до DevOPS",
   "topic": "Jenkins",
   "title": "Урок 2: Создание Jenkins Pipeline для CI/CD",
-  "lesson": "Jenkins Pipeline позволяет создавать автоматизированные процессы для CI/CD. Существует два типа Pipeline:\nDeclarative Pipeline — декларативный синтаксис для описания пайплайна;\nScripted Pipeline — более гибкий и расширяемый скриптовый синтаксис.\nПример простого декларативного Pipeline:\ngroovy\n\npipeline {\n    agent any\n    stages {\n        stage('Build') {\n            steps {\n                script {\n                    sh 'mvn clean install'\n                }\n            }\n        }\n        stage('Test') {\n            steps {\n                script {\n                    sh 'mvn test'\n                }\n            }\n        }\n        stage('Deploy') {\n            steps {\n                script {\n                    sh 'scp target/myapp.war user@server:/path/to/deploy'\n                }\n            }\n        }\n    }\n}\n\nВажные этапы:\nBuild — сборка приложения;\nTest — выполнение тестов;\nDeploy — деплой приложения."
+  "lesson": "Jenkins Pipeline позволяет создавать автоматизированные процессы для CI/CD. Существует два типа Pipeline:\nDeclarative Pipeline — декларативный синтаксис для описания пайплайна;\nScripted Pipeline — более гибкий и расширяемый скриптовый синтаксис.\nПример простого декларативного Pipeline:\n\npipeline {\n    agent any\n    stages {\n        stage('Build') {\n            steps {\n                script {\n                    sh 'mvn clean install'\n                }\n            }\n        }\n        stage('Test') {\n            steps {\n                script {\n                    sh 'mvn test'\n                }\n            }\n        }\n        stage('Deploy') {\n            steps {\n                script {\n                    sh 'scp target/myapp.war user@server:/path/to/deploy'\n                }\n            }\n        }\n    }\n}\n\nВажные этапы:\nBuild — сборка приложения;\nTest — выполнение тестов;\nDeploy — деплой приложения."
 },
 {
   "_id": {
@@ -116,7 +116,7 @@
   "course": "С Linux администратора до DevOPS",
   "topic": "Kubernetes",
   "title": "Урок 2: Управление приложениями в Kubernetes",
-  "lesson": "Kubernetes позволяет управлять приложениями с помощью объектов, таких как:\n\nDeployment — описывает развертывание приложения и его обновления;\nService — создает стабильный доступ к подам;\nIngress — управляет внешним доступом к приложениям в кластере.\n\nОсновные команды Kubernetes:\nkubectl get pods — список всех подов;\nkubectl create -f deployment.yml — создание объекта из манифеста;\nkubectl apply -f deployment.yml — применение изменений;\nkubectl delete -f deployment.yml — удаление объекта.\n\nПример Deployment манифеста:\nyaml\nКопироватьРедактировать\napiVersion: apps/v1\nkind: Deployment\nmetadata:\n  name: myapp\nspec:\n  replicas: 3\n  selector:\n    matchLabels:\n      app: myapp\n  template:\n    metadata:\n      labels:\n        app: myapp\n    spec:\n      containers:\n        - name: myapp\n          image: myapp:latest\n          ports:\n            - containerPort: 8080"
+  "lesson": "Kubernetes позволяет управлять приложениями с помощью объектов, таких как:\n\nDeployment — описывает развертывание приложения и его обновления;\nService — создает стабильный доступ к подам;\nIngress — управляет внешним доступом к приложениям в кластере.\n\nОсновные команды Kubernetes:\nkubectl get pods — список всех подов;\nkubectl create -f deployment.yml — создание объекта из манифеста;\nkubectl apply -f deployment.yml — применение изменений;\nkubectl delete -f deployment.yml — удаление объекта.\n\nПример Deployment манифеста:\napiVersion: apps/v1\nkind: Deployment\nmetadata:\n  name: myapp\nspec:\n  replicas: 3\n  selector:\n    matchLabels:\n      app: myapp\n  template:\n    metadata:\n      labels:\n        app: myapp\n    spec:\n      containers:\n        - name: myapp\n          image: myapp:latest\n          ports:\n            - containerPort: 8080"
 },
 {
   "_id": {
@@ -156,7 +156,7 @@
   "course": "С Linux администратора до DevOPS",
   "topic": "ELK & GRAY LOG",
   "title": "Урок 2: Настройка ELK Stack для логирования",
-  "lesson": "Настройка ELK Stack включает установку всех трех компонентов и их настройку для сбора и анализа логов.\n\nУстановите Elasticsearch, Logstash и Kibana.\n\nНастройте Logstash для сбора логов, например, из файлов или системных журналов.\n\nНастройте Kibana для визуализации данных, создавая дашборды для логов.\n\nПример конфигурации Logstash для получения логов из файлов:\n\nbash\n\ninput {\n  file {\n    path => \"/var/log/syslog\"\n    start_position => \"beginning\"\n  }\n}\noutput {\n  elasticsearch {\n    hosts => [\"http://localhost:9200\"]\n  }\n}"
+  "lesson": "Настройка ELK Stack включает установку всех трех компонентов и их настройку для сбора и анализа логов.\n\nУстановите Elasticsearch, Logstash и Kibana.\n\nНастройте Logstash для сбора логов, например, из файлов или системных журналов.\n\nНастройте Kibana для визуализации данных, создавая дашборды для логов.\n\nПример конфигурации Logstash для получения логов из файлов:\n\ninput {\n  file {\n    path => \"/var/log/syslog\"\n    start_position => \"beginning\"\n  }\n}\noutput {\n  elasticsearch {\n    hosts => [\"http://localhost:9200\"]\n  }\n}"
 },
 {
   "_id": {
@@ -176,7 +176,7 @@
   "course": "Bash",
   "topic": "Основы Bash и работа с терминалом",
   "title": "Урок 2: Основные команды и синтаксис Bash",
-  "lesson": "Работа в Bash основана на использовании команд. Каждая команда состоит из:\n•  имени команды;\n•  параметров;\n•  аргументов.\n\nПримеры базовых команд:\n•  pwd — показать текущий каталог;\n•  ls — список файлов и папок;\n•  cd — переход в другую директорию;\n•  mkdir — создать папку;\n•  rm — удалить файл или папку;\n•  man — открыть справку по команде.\n\nСинтаксис Bash:\n•  Команды пишутся в одну строку;\n•  Можно объединять команды с помощью ; или &&;\n•  Комментарии начинаются с символа #.\n\nПример:\nbash\nКопироватьРедактировать\ncd /home/user && ls -l\nЭта строка сначала перейдёт в каталог /home/user, а если это успешно — выведет список файлов."
+  "lesson": "Работа в Bash основана на использовании команд. Каждая команда состоит из:\n•  имени команды;\n•  параметров;\n•  аргументов.\n\nПримеры базовых команд:\n•  pwd — показать текущий каталог;\n•  ls — список файлов и папок;\n•  cd — переход в другую директорию;\n•  mkdir — создать папку;\n•  rm — удалить файл или папку;\n•  man — открыть справку по команде.\n\nСинтаксис Bash:\n•  Команды пишутся в одну строку;\n•  Можно объединять команды с помощью ; или &&;\n•  Комментарии начинаются с символа #.\n\nПример:\ncd /home/user && ls -l\nЭта строка сначала перейдёт в каталог /home/user, а если это успешно — выведет список файлов."
 },
 {
   "_id": {
@@ -186,7 +186,7 @@
   "course": "Bash",
   "topic": "Переменные и операторы",
   "title": "Урок 1: Переменные и типы данных",
-  "lesson": "Переменные в Bash позволяют хранить значения для последующего использования. Переменные не имеют строгой типизации, то есть Bash рассматривает все как строки (по умолчанию).\n\nСоздание переменной:\nbash\nКопироватьРедактировать\nNAME=\"Ivan\"\nAGE=25\nПробелы вокруг = запрещены!\n\nДоступ к значению переменной:\nbash\nКопироватьРедактировать\necho $NAME\n\nТипы значений:\n•  строки (например, \"hello\");\n•  числа (используются в арифметике);\n•  списки (через массивы).\n\nСпециальные переменные:\n•  $0 — имя скрипта;\n•  $1, $2 ... — позиционные аргументы;\n•  $# — количество аргументов;\n•  $? — код завершения предыдущей команды."
+  "lesson": "Переменные в Bash позволяют хранить значения для последующего использования. Переменные не имеют строгой типизации, то есть Bash рассматривает все как строки (по умолчанию).\n\nСоздание переменной:\nNAME=\"Ivan\"\nAGE=25\nПробелы вокруг = запрещены!\n\nДоступ к значению переменной:\necho $NAME\n\nТипы значений:\n•  строки (например, \"hello\");\n•  числа (используются в арифметике);\n•  списки (через массивы).\n\nСпециальные переменные:\n•  $0 — имя скрипта;\n•  $1, $2 ... — позиционные аргументы;\n•  $# — количество аргументов;\n•  $? — код завершения предыдущей команды."
 },
 {
   "_id": {
