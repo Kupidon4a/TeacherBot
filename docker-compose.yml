@@ -1,0 +1,47 @@
+version: "3.9"
+
+services:
+  mongo:
+    image: mongo:6.0
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+  mongo-seed:
+    image: mongo:6.0
+    depends_on:
+      - mongo
+    volumes:
+      - ./test_data:/test_data
+    entrypoint: >
+      bash -c '
+        echo "⏳ Ждём запуска MongoDB..." &&
+        sleep 5 &&
+        echo "📥 Импорт JSON в базу teacherbot..." &&
+        echo "📂 Проверка содержимого /test_data:" &&
+        ls -l /test_data &&
+        for file in /test_data/*.json; do
+          echo "▶ Обрабатываем файл: $$file"
+          name=$$(basename "$$file")
+          name="$${name##teacherbot.}"
+          name="$${name%.json}"
+          echo "📄 Импорт коллекции: $$name"
+          mongoimport --host mongo --db teacherbot --collection "$$name" --file "$$file" --jsonArray
+        done &&
+        echo "✅ Импорт завершён."
+      '
+
+  bot:
+    build: .
+    container_name: telegram-bot
+    depends_on:
+      - mongo
+
+    environment:
+      - MONGO_URI=mongodb://mongo:27017
+    restart: unless-stopped
+
+volumes:
+  mongo_data:

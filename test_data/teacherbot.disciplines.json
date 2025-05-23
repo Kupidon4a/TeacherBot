@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "6818bf6e23341fe8480bd4a0"
+  },
+  "discipline": "DevOPS"
+},
+{
+  "_id": {
+    "$oid": "6818bf6f23341fe8480bd4a1"
+  },
+  "discipline": "Математический анализ"
+}]

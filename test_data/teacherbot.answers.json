@@ -1,0 +1,518 @@
+[{
+  "_id": {
+    "$oid": "6819071603c02a6d09c652ce"
+  },
+  "login": "alex2003petr",
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Введение в DevOPS",
+  "title": "Глава 1: Введение в DevOps",
+  "question": "Какой инструмент используется для контейнеризации приложений?",
+  "user_answer": "Docker",
+  "correct_answer": "Docker",
+  "is_correct": true
+},
+{
+  "_id": {
+    "$oid": "6819073803c02a6d09c652cf"
+  },
+  "login": "alex2003petr",
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Введение в DevOPS",
+  "title": "Глава 1: Введение в DevOps",
+  "question": "Что означает CI в аббревиатуре CI/CD?",
+  "user_answer": "непрерывная интеграция",
+  "correct_answer": "непрерывная интеграция",
+  "is_correct": true
+},
+{
+  "_id": {
+    "$oid": "6819e1725a33138151d036ab"
+  },
+  "login": null,
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Модель управления инфраструтурой Packer, Terraform",
+  "title": "Урок 1: Введение в Packer и создание образов",
+  "question": "Что делает команда packer build?",
+  "user_answer": "terraform",
+  "correct_answer": "cоздает образ",
+  "is_correct": false
+},
+{
+  "_id": {
+    "$oid": "6819e17f5a33138151d036ac"
+  },
+  "login": null,
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Модель управления инфраструтурой Packer, Terraform",
+  "title": "Урок 1: Введение в Packer и создание образов",
+  "question": "Какой инструмент используется для создания виртуальных машин и контейнеров?",
+  "user_answer": "a",
+  "correct_answer": "packer",
+  "is_correct": false
+},
+{
+  "_id": {
+    "$oid": "6819e23fea226ef7b35b43b4"
+  },
+  "login": "alex2003petr",
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Модель управления инфраструтурой Packer, Terraform",
+  "title": "Урок 1: Введение в Packer и создание образов",
+  "question": "Что делает команда packer build?",
+  "user_answer": "создает образ",
+  "correct_answer": "cоздает образ",
+  "is_correct": false
+},
+{
+  "_id": {
+    "$oid": "6819e338b4af434343fdeec5"
+  },
+  "login": "alex2003petr",
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Введение в DevOPS",
+  "title": "Глава 1: Введение в DevOps",
+  "question": "Какой инструмент используется для контейнеризации приложений?",
+  "user_answer": "Docker",
+  "correct_answer": "Docker",
+  "is_correct": true
+},
+{
+  "_id": {
+    "$oid": "6819e345b4af434343fdeec6"
+  },
+  "login": "alex2003petr",
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Введение в DevOPS",
+  "title": "Глава 1: Введение в DevOps",
+  "question": "Что означает CI в аббревиатуре CI/CD?",
+  "user_answer": "непрерывная интеграция",
+  "correct_answer": "непрерывная интеграция",
+  "is_correct": true
+},
+{
+  "_id": {
+    "$oid": "6819e36db4af434343fdeec7"
+  },
+  "login": "alex2003petr",
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Введение в DevOPS",
+  "title": "Урок 1: Что такое DevOPS и основные принципы",
+  "question": "Какая главная цель DevOPS?",
+  "user_answer": "ускорение разработки и выпуска продуктов",
+  "correct_answer": "ускорение разработки и выпуска продуктов",
+  "is_correct": true
+},
+{
+  "_id": {
+    "$oid": "6819e409db876f638016e243"
+  },
+  "login": "alex2003petr",
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Введение в DevOPS",
+  "title": "Урок 1: Что такое DevOPS и основные принципы",
+  "question": "Какая главная цель DevOPS?",
+  "user_answer": "ускорение разработки и выпуска продуктов",
+  "correct_answer": "ускорение разработки и выпуска продуктов",
+  "is_correct": true
+},
+{
+  "_id": {
+    "$oid": "6819e418db876f638016e244"
+  },
+  "login": "alex2003petr",
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Введение в DevOPS",
+  "title": "Урок 1: Что такое DevOPS и основные принципы",
+  "question": "Что означает принцип \"Инфраструктура как код\"?",
+  "user_answer": "управление инфраструктурой с помощью кода",
+  "correct_answer": "управление инфраструктурой с помощью кода",
+  "is_correct": true
+},
+{
+  "_id": {
+    "$oid": "6819e422db876f638016e245"
+  },
+  "login": "alex2003petr",
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Введение в DevOPS",
+  "title": "Урок 1: Что такое DevOPS и основные принципы",
+  "question": "Какую задачу решает DevOPS, помимо автоматизации?",
+  "user_answer": "сотрудничество",
+  "correct_answer": "cотрудничество между разработчиками и операционными командами",
+  "is_correct": false
+},
+{
+  "_id": {
+    "$oid": "6819e43edb876f638016e246"
+  },
+  "login": "alex2003petr",
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Работа с Docker",
+  "title": "Урок 1: Введение в Docker и создание контейнеров",
+  "question": "Как запустить контейнер из образа?",
+  "user_answer": "docker up",
+  "correct_answer": "docker run",
+  "is_correct": false
+},
+{
+  "_id": {
+    "$oid": "6819e443db876f638016e247"
+  },
+  "login": "alex2003petr",
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Работа с Docker",
+  "title": "Урок 1: Введение в Docker и создание контейнеров",
+  "question": "Как проверить, какие контейнеры запущены?",
+  "user_answer": "docker ps",
+  "correct_answer": "docker ps",
+  "is_correct": true
+},
+{
+  "_id": {
+    "$oid": "6819e454db876f638016e248"
+  },
+  "login": "alex2003petr",
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Введение в DevOPS",
+  "title": "Глава 1: Введение в DevOps",
+  "question": "Какой инструмент используется для контейнеризации приложений?",
+  "user_answer": "Docker",
+  "correct_answer": "Docker",
+  "is_correct": true
+},
+{
+  "_id": {
+    "$oid": "6819e457db876f638016e249"
+  },
+  "login": "alex2003petr",
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Введение в DevOPS",
+  "title": "Глава 1: Введение в DevOps",
+  "question": "Что означает CI в аббревиатуре CI/CD?",
+  "user_answer": "vze",
+  "correct_answer": "непрерывная интеграция",
+  "is_correct": false
+},
+{
+  "_id": {
+    "$oid": "6819e46edb876f638016e24a"
+  },
+  "login": "alex2003petr",
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Введение в DevOPS",
+  "title": "Глава 1: Введение в DevOps",
+  "question": "Какой инструмент используется для контейнеризации приложений?",
+  "user_answer": "Kubernetes",
+  "correct_answer": "Docker",
+  "is_correct": false
+},
+{
+  "_id": {
+    "$oid": "6819e478db876f638016e24b"
+  },
+  "login": "alex2003petr",
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Введение в DevOPS",
+  "title": "Глава 1: Введение в DevOps",
+  "question": "Что означает CI в аббревиатуре CI/CD?",
+  "user_answer": "непрерывная интеграция",
+  "correct_answer": "непрерывная интеграция",
+  "is_correct": true
+},
+{
+  "_id": {
+    "$oid": "6819e5fbdb876f638016e24c"
+  },
+  "login": "alex2003petr",
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Управление конфигурацией Ansible",
+  "title": "Урок 2: Пример Playbook и использование переменных",
+  "question": "Какой модуль используется для установки пакетов в Ansible?",
+  "user_answer": "yum",
+  "correct_answer": "yum",
+  "is_correct": true
+},
+{
+  "_id": {
+    "$oid": "6819e603db876f638016e24d"
+  },
+  "login": "alex2003petr",
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Управление конфигурацией Ansible",
+  "title": "Урок 2: Пример Playbook и использование переменных",
+  "question": "Как задать переменную в Ansible?",
+  "user_answer": "никак",
+  "correct_answer": "Через vars в Playbook",
+  "is_correct": false
+},
+{
+  "_id": {
+    "$oid": "6819e613db876f638016e24e"
+  },
+  "login": "alex2003petr",
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Управление конфигурацией Ansible",
+  "title": "Урок 2: Пример Playbook и использование переменных",
+  "question": "Какой параметр в playbook выполняет задачу с правами суперпользователя?",
+  "user_answer": "become: yes",
+  "correct_answer": "become: yes",
+  "is_correct": true
+},
+{
+  "_id": {
+    "$oid": "681a51c4d6684927d8fa77d0"
+  },
+  "login": "alex2003petr",
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Модель управления инфраструтурой Packer, Terraform",
+  "title": "Урок 2: Введение в Terraform и управление инфраструктурой как код",
+  "question": "Какой инструмент используется для управления инфраструктурой как код?",
+  "user_answer": "мяу",
+  "correct_answer": "terraform",
+  "is_correct": false
+},
+{
+  "_id": {
+    "$oid": "681a51c7d6684927d8fa77d1"
+  },
+  "login": "alex2003petr",
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Модель управления инфраструтурой Packer, Terraform",
+  "title": "Урок 2: Введение в Terraform и управление инфраструктурой как код",
+  "question": "Какая команда используется для применения изменений в инфраструктуре?",
+  "user_answer": "гаф",
+  "correct_answer": "terraform apply",
+  "is_correct": false
+},
+{
+  "_id": {
+    "$oid": "681a51cfd6684927d8fa77d2"
+  },
+  "login": "alex2003petr",
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Модель управления инфраструтурой Packer, Terraform",
+  "title": "Урок 2: Введение в Terraform и управление инфраструктурой как код",
+  "question": "Что такое модуль в Terraform?",
+  "user_answer": "лох",
+  "correct_answer": "повторно используемый блок кода",
+  "is_correct": false
+},
+{
+  "_id": {
+    "$oid": "681a51e8d6684927d8fa77d3"
+  },
+  "login": "alex2003petr",
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Kubernetes",
+  "title": "Урок 1: Введение в Kubernetes и его архитектура",
+  "question": "Что такое Pod в Kubernetes?",
+  "user_answer": "гол",
+  "correct_answer": "минимальная единица развертывания, содержащая контейнеры",
+  "is_correct": false
+},
+{
+  "_id": {
+    "$oid": "681a51efd6684927d8fa77d4"
+  },
+  "login": "alex2003petr",
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Kubernetes",
+  "title": "Урок 1: Введение в Kubernetes и его архитектура",
+  "question": "Какой компонент в Kubernetes управляет состоянием кластера?",
+  "user_answer": "лол",
+  "correct_answer": "control plane",
+  "is_correct": false
+},
+{
+  "_id": {
+    "$oid": "681a51f4d6684927d8fa77d5"
+  },
+  "login": "alex2003petr",
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Kubernetes",
+  "title": "Урок 1: Введение в Kubernetes и его архитектура",
+  "question": "Какой формат используется для описания объектов Kubernetes?",
+  "user_answer": "json",
+  "correct_answer": "yaml",
+  "is_correct": false
+},
+{
+  "_id": {
+    "$oid": "681a5215d6684927d8fa77d6"
+  },
+  "login": "alex2003petr",
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Работа с Docker",
+  "title": "Урок 2: Работа с Docker Compose",
+  "question": "Что такое Docker Compose?",
+  "user_answer": "система управления контейнерами",
+  "correct_answer": "инструмент для работы с многоконтейнерными приложениями",
+  "is_correct": false
+},
+{
+  "_id": {
+    "$oid": "681a5226d6684927d8fa77d7"
+  },
+  "login": "alex2003petr",
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Работа с Docker",
+  "title": "Урок 2: Работа с Docker Compose",
+  "question": "Какой командой можно запустить контейнеры из файла docker-compose.yml?",
+  "user_answer": "docker run",
+  "correct_answer": "docker-compose up",
+  "is_correct": false
+},
+{
+  "_id": {
+    "$oid": "681a522fd6684927d8fa77d8"
+  },
+  "login": "alex2003petr",
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Работа с Docker",
+  "title": "Урок 2: Работа с Docker Compose",
+  "question": "Какая команда останавливает и удаляет контейнеры в Docker Compose?",
+  "user_answer": "docker ps",
+  "correct_answer": "docker-compose down",
+  "is_correct": false
+},
+{
+  "_id": {
+    "$oid": "681a523fd6684927d8fa77d9"
+  },
+  "login": "alex2003petr",
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Работа с Docker",
+  "title": "Урок 1: Введение в Docker и создание контейнеров",
+  "question": "Как запустить контейнер из образа?",
+  "user_answer": "docker run",
+  "correct_answer": "docker run",
+  "is_correct": true
+},
+{
+  "_id": {
+    "$oid": "681a5243d6684927d8fa77da"
+  },
+  "login": "alex2003petr",
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Работа с Docker",
+  "title": "Урок 1: Введение в Docker и создание контейнеров",
+  "question": "Как проверить, какие контейнеры запущены?",
+  "user_answer": "docker ps",
+  "correct_answer": "docker ps",
+  "is_correct": true
+},
+{
+  "_id": {
+    "$oid": "681a796bd6684927d8fa77ef"
+  },
+  "login": "alex2003petr",
+  "discipline": "DevOPS",
+  "course": "Bash",
+  "topic": "Основы Bash и работа с терминалом",
+  "title": "Урок 1: Что такое Bash и зачем он нужен",
+  "question": "Что такое Bash?",
+  "user_answer": "мяу",
+  "correct_answer": "оболочка командной строки",
+  "is_correct": false
+},
+{
+  "_id": {
+    "$oid": "681a7997d6684927d8fa77f0"
+  },
+  "login": "alex2003petr",
+  "discipline": "DevOPS",
+  "course": "Bash",
+  "topic": "Основы Bash и работа с терминалом",
+  "title": "Урок 1: Что такое Bash и зачем он нужен",
+  "question": "Назовите одну из основных задач Bash.",
+  "user_answer": "автоматизация",
+  "correct_answer": "автоматизация",
+  "is_correct": true
+},
+{
+  "_id": {
+    "$oid": "681a79a2d6684927d8fa77f1"
+  },
+  "login": "alex2003petr",
+  "discipline": "DevOPS",
+  "course": "Bash",
+  "topic": "Основы Bash и работа с терминалом",
+  "title": "Урок 1: Что такое Bash и зачем он нужен",
+  "question": "Какой тип файлов пишется на Bash для автоматизации?",
+  "user_answer": "скрипты",
+  "correct_answer": "cкрипты",
+  "is_correct": false
+},
+{
+  "_id": {
+    "$oid": "681a8b0dd6684927d8fa77ff"
+  },
+  "login": "alex2003petr",
+  "discipline": "DevOPS",
+  "course": "Сети и VPN",
+  "topic": "Основы VPN и настройка",
+  "title": "Урок 1: Что такое VPN и зачем он нужен",
+  "question": "Расшифруйте аббревиатуру VPN:",
+  "user_answer": "virtual private network",
+  "correct_answer": "virtual private network",
+  "is_correct": true
+},
+{
+  "_id": {
+    "$oid": "681a8b25d6684927d8fa7800"
+  },
+  "login": "alex2003petr",
+  "discipline": "DevOPS",
+  "course": "Сети и VPN",
+  "topic": "Основы VPN и настройка",
+  "title": "Урок 1: Что такое VPN и зачем он нужен",
+  "question": "Какой протокол VPN считается самым быстрым и современным?",
+  "user_answer": "wireguard",
+  "correct_answer": "wireguard",
+  "is_correct": true
+},
+{
+  "_id": {
+    "$oid": "681a8b2cd6684927d8fa7801"
+  },
+  "login": "alex2003petr",
+  "discipline": "DevOPS",
+  "course": "Сети и VPN",
+  "topic": "Основы VPN и настройка",
+  "title": "Урок 1: Что такое VPN и зачем он нужен",
+  "question": "Что обеспечивает VPN?",
+  "user_answer": "шифрование трафика",
+  "correct_answer": "шифрование трафика",
+  "is_correct": true
+}]

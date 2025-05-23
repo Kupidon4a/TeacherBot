@@ -1,0 +1,128 @@
+[{
+  "_id": {
+    "$oid": "6818beda23341fe8480bd496"
+  },
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Введение в DevOPS"
+},
+{
+  "_id": {
+    "$oid": "6818beda23341fe8480bd497"
+  },
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Модель управления инфраструтурой Packer, Terraform"
+},
+{
+  "_id": {
+    "$oid": "6818beda23341fe8480bd498"
+  },
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Управление конфигурацией Ansible"
+},
+{
+  "_id": {
+    "$oid": "6818beda23341fe8480bd499"
+  },
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Работа с Docker"
+},
+{
+  "_id": {
+    "$oid": "6818beda23341fe8480bd49a"
+  },
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Jenkins"
+},
+{
+  "_id": {
+    "$oid": "6818beda23341fe8480bd49b"
+  },
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Мониторинг (Prometheus & Grafana)"
+},
+{
+  "_id": {
+    "$oid": "6818beda23341fe8480bd49c"
+  },
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "ELK & GRAY LOG"
+},
+{
+  "_id": {
+    "$oid": "6818beda23341fe8480bd49d"
+  },
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Kubernetes"
+},
+{
+  "_id": {
+    "$oid": "681a545ad6684927d8fa77db"
+  },
+  "discipline": "DevOPS",
+  "course": "Bash",
+  "topic": "Основы Bash и работа с терминалом"
+},
+{
+  "_id": {
+    "$oid": "681a5b4ed6684927d8fa77e0"
+  },
+  "discipline": "DevOPS",
+  "course": "Bash",
+  "topic": "Переменные и операторы"
+},
+{
+  "_id": {
+    "$oid": "681a6062d6684927d8fa77e5"
+  },
+  "discipline": "DevOPS",
+  "course": "Bash",
+  "topic": "Управляющие конструкции"
+},
+{
+  "_id": {
+    "$oid": "681a6657d6684927d8fa77ea"
+  },
+  "discipline": "DevOPS",
+  "course": "Bash",
+  "topic": "Функции и скрипты"
+},
+{
+  "_id": {
+    "$oid": "681a8693d6684927d8fa77f2"
+  },
+  "discipline": "DevOPS",
+  "course": "Сети и VPN",
+  "topic": "Основы компьютерных сетей"
+},
+{
+  "_id": {
+    "$oid": "681a8833d6684927d8fa77f7"
+  },
+  "discipline": "DevOPS",
+  "course": "Сети и VPN",
+  "topic": "Инструменты и диагностика сети"
+},
+{
+  "_id": {
+    "$oid": "681a89dcd6684927d8fa77fc"
+  },
+  "discipline": "DevOPS",
+  "course": "Сети и VPN",
+  "topic": "Основы VPN и настройка"
+},
+{
+  "_id": {
+    "$oid": "681a966cd6684927d8fa7802"
+  },
+  "discipline": "DevOPS",
+  "course": "С 0 до Linux администратора",
+  "topic": "Введение в Linux"
+}]

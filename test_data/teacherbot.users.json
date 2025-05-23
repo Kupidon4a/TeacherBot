@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "6818b8a86019bee65732b1f9"
+  },
+  "first_name": "Александр",
+  "last_name": "Петров",
+  "age": "21",
+  "city": "Санкт-Петербург",
+  "login": "alex2003petr",
+  "role": "admin",
+  "datetime": {
+    "$date": "2025-05-05T16:10:00.909Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6818c372dc2bacba467fc268"
+  },
+  "first_name": "Василий",
+  "last_name": "Пупкин",
+  "age": "21",
+  "city": "Масква",
+  "login": "Vassillla",
+  "role": "user",
+  "datetime": {
+    "$date": "2025-05-05T16:56:02.943Z"
+  }
+}]

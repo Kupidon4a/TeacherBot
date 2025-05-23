@@ -1,0 +1,819 @@
+[{
+  "_id": {
+    "$oid": "6819bb49a750af789de3e924"
+  },
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Введение в DevOPS",
+  "title": "Урок 1: Что такое DevOPS и основные принципы",
+  "questions": [
+    {
+      "type": "text_answer",
+      "text": "Какая главная цель DevOPS?",
+      "correct_answer": "ускорение разработки и выпуска продуктов"
+    },
+    {
+      "type": "text_answer",
+      "text": "Что означает принцип \"Инфраструктура как код\"?",
+      "correct_answer": "управление инфраструктурой с помощью кода"
+    },
+    {
+      "type": "text_answer",
+      "text": "Какую задачу решает DevOPS, помимо автоматизации?",
+      "correct_answer": "cотрудничество между разработчиками и операционными командами"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6819bd73a750af789de3e926"
+  },
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Введение в DevOPS",
+  "title": "Урок 2: Инструменты DevOPS",
+  "questions": [
+    {
+      "type": "text_answer",
+      "text": "Какой инструмент используется для автоматизации сборки и деплоя в DevOPS? Ответом является одно понятие",
+      "correct_answer": "jenkins"
+    },
+    {
+      "type": "text_answer",
+      "text": "Для чего используется Kubernetes в DevOPS? В качестве ответа введите одно слово вместо многоточия: Для …",
+      "correct_answer": "оркестрации"
+    },
+    {
+      "type": "multiple_choice",
+      "text": "Какой инструмент используется для управления конфигурацией?",
+      "correct_answer": 2,
+      "options": [
+        "Docker",
+        "Kubernetes",
+        "Ansible",
+        "Jenkins",
+        "Grafana"
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6819c1eda750af789de3e928"
+  },
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Модель управления инфраструтурой Packer, Terraform",
+  "title": "Урок 1: Введение в Packer и создание образов",
+  "questions": [
+    {
+      "type": "text_answer",
+      "text": "Что делает команда packer build?",
+      "correct_answer": "cоздает образ"
+    },
+    {
+      "type": "text_answer",
+      "text": "Какой инструмент используется для создания виртуальных машин и контейнеров?",
+      "correct_answer": "packer"
+    },
+    {
+      "type": "text_answer",
+      "text": "Что такое провайдер в Packer?",
+      "correct_answer": "платформа для создания образов"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6819c3a2a750af789de3e92a"
+  },
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Модель управления инфраструтурой Packer, Terraform",
+  "title": "Урок 2: Введение в Terraform и управление инфраструктурой как код",
+  "questions": [
+    {
+      "type": "text_answer",
+      "text": "Какой инструмент используется для управления инфраструктурой как код?",
+      "correct_answer": "terraform"
+    },
+    {
+      "type": "text_answer",
+      "text": "Какая команда используется для применения изменений в инфраструктуре?",
+      "correct_answer": "terraform apply"
+    },
+    {
+      "type": "text_answer",
+      "text": "Что такое модуль в Terraform?",
+      "correct_answer": "повторно используемый блок кода"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6819c69b5a33138151d036a4"
+  },
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Управление конфигурацией Ansible",
+  "title": "Урок 1: Введение в Ansible и его архитектура",
+  "questions": [
+    {
+      "type": "text_answer",
+      "text": "Что такое Playbook в Ansible?",
+      "correct_answer": "сценарий для управления конфигурацией"
+    },
+    {
+      "type": "text_answer",
+      "text": "Какая модель используется в Ansible для управления конфигурациями?",
+      "correct_answer": "push"
+    },
+    {
+      "type": "text_answer",
+      "text": "Как выполнить playbook в Ansible?",
+      "correct_answer": "ansible-playbook playbook.yml"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6819c8475a33138151d036a6"
+  },
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Управление конфигурацией Ansible",
+  "title": "Урок 2: Пример Playbook и использование переменных",
+  "questions": [
+    {
+      "type": "text_answer",
+      "text": "Какой модуль используется для установки пакетов в Ansible?",
+      "correct_answer": "yum"
+    },
+    {
+      "type": "text_answer",
+      "text": "Как задать переменную в Ansible?",
+      "correct_answer": "Через vars в Playbook"
+    },
+    {
+      "type": "text_answer",
+      "text": "Какой параметр в playbook выполняет задачу с правами суперпользователя?",
+      "correct_answer": "become: yes"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6819db8b5a33138151d036a8"
+  },
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Работа с Docker",
+  "title": "Урок 1: Введение в Docker и создание контейнеров",
+  "questions": [
+    {
+      "type": "text_answer",
+      "text": "Как запустить контейнер из образа?",
+      "correct_answer": "docker run"
+    },
+    {
+      "type": "text_answer",
+      "text": "Как проверить, какие контейнеры запущены?",
+      "correct_answer": "docker ps"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6819dc3a5a33138151d036aa"
+  },
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Работа с Docker",
+  "title": "Урок 2: Работа с Docker Compose",
+  "questions": [
+    {
+      "type": "text_answer",
+      "text": "Что такое Docker Compose?",
+      "correct_answer": "инструмент для работы с многоконтейнерными приложениями"
+    },
+    {
+      "type": "text_answer",
+      "text": "Какой командой можно запустить контейнеры из файла docker-compose.yml?",
+      "correct_answer": "docker-compose up"
+    },
+    {
+      "type": "text_answer",
+      "text": "Какая команда останавливает и удаляет контейнеры в Docker Compose?",
+      "correct_answer": "docker-compose down"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "681a36cdd6684927d8fa77c0"
+  },
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Jenkins",
+  "title": "Урок 1: Введение в Jenkins и настройка первого проекта",
+  "questions": [
+    {
+      "type": "text_answer",
+      "text": "Что делает Jenkins?",
+      "correct_answer": "автоматизирует процессы сборки, тестирования и деплоя"
+    },
+    {
+      "type": "text_answer",
+      "text": "Что такое Jenkins Pipeline?",
+      "correct_answer": "сценарий для автоматизации процессов"
+    },
+    {
+      "type": "text_answer",
+      "text": "Что такое Jenkins Agent?",
+      "correct_answer": "дополнительный сервер для выполнения задач"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "681a387bd6684927d8fa77c3"
+  },
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Jenkins",
+  "title": "Урок 2: Создание Jenkins Pipeline для CI/CD",
+  "questions": [
+    {
+      "type": "text_answer",
+      "text": "Какой синтаксис используется для создания Jenkins Pipeline?",
+      "correct_answer": "groovy"
+    },
+    {
+      "type": "text_answer",
+      "text": "Какой этап Pipeline выполняет сборку приложения?",
+      "correct_answer": "build"
+    },
+    {
+      "type": "text_answer",
+      "text": "Какой командой можно выполнить деплой приложения?",
+      "correct_answer": "scp"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "681a3a03d6684927d8fa77c5"
+  },
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Kubernetes",
+  "title": "Урок 1: Введение в Kubernetes и его архитектура",
+  "questions": [
+    {
+      "type": "text_answer",
+      "text": "Что такое Pod в Kubernetes?",
+      "correct_answer": "минимальная единица развертывания, содержащая контейнеры"
+    },
+    {
+      "type": "text_answer",
+      "text": "Какой компонент в Kubernetes управляет состоянием кластера?",
+      "correct_answer": "control plane"
+    },
+    {
+      "type": "text_answer",
+      "text": "Какой формат используется для описания объектов Kubernetes?",
+      "correct_answer": "yaml"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "681a3ac4d6684927d8fa77c7"
+  },
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Kubernetes",
+  "title": "Урок 2: Управление приложениями в Kubernetes",
+  "questions": [
+    {
+      "type": "text_answer",
+      "text": "Какой объект Kubernetes описывает развертывание приложения?",
+      "correct_answer": "deployment"
+    },
+    {
+      "type": "text_answer",
+      "text": "Как создать объект в Kubernetes из файла манифеста?",
+      "correct_answer": "kubectl create -f"
+    },
+    {
+      "type": "text_answer",
+      "text": "Как удалить объект в Kubernetes?",
+      "correct_answer": "kubectl delete -f"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "681a459ed6684927d8fa77c9"
+  },
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Мониторинг (Prometheus & Grafana)",
+  "title": "Урок 1: Введение в мониторинг с Prometheus",
+  "questions": [
+    {
+      "type": "text_answer",
+      "text": "Какой язык используется для запросов в Prometheus?",
+      "correct_answer": "promql"
+    },
+    {
+      "type": "text_answer",
+      "text": "Какой компонент Prometheus собирает метрики с приложений?",
+      "correct_answer": "exporter"
+    },
+    {
+      "type": "text_answer",
+      "text": "Какую задачу выполняет Alertmanager?",
+      "correct_answer": "управление уведомлениями"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "681a467cd6684927d8fa77cb"
+  },
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "Мониторинг (Prometheus & Grafana)",
+  "title": "Урок 2: Визуализация данных с Grafana",
+  "questions": [
+    {
+      "type": "text_answer",
+      "text": "Какой инструмент используется для визуализации данных в DevOPS?",
+      "correct_answer": "grafana"
+    },
+    {
+      "type": "text_answer",
+      "text": "Какой источник данных используется в Grafana для интеграции с Prometheus?",
+      "correct_answer": "prometheus"
+    },
+    {
+      "type": "text_answer",
+      "text": "3.  Что отображает панель типа \"Graph\" в Grafana?",
+      "correct_answer": "графики"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "681a498bd6684927d8fa77cd"
+  },
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "ELK & GRAY LOG",
+  "title": "Урок 1: Введение в ELK Stack",
+  "questions": [
+    {
+      "type": "text_answer",
+      "text": "Какой компонент ELK Stack отвечает за визуализацию данных?",
+      "correct_answer": "kibana"
+    },
+    {
+      "type": "text_answer",
+      "text": "Какой компонент отвечает за хранение и обработку логов?",
+      "correct_answer": "elasticsearch"
+    },
+    {
+      "type": "text_answer",
+      "text": "Что собирает и обрабатывает Logstash в ELK Stack?",
+      "correct_answer": "логи"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "681a4a69d6684927d8fa77cf"
+  },
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS",
+  "topic": "ELK & GRAY LOG",
+  "title": "Урок 2: Настройка ELK Stack для логирования",
+  "questions": [
+    {
+      "type": "text_answer",
+      "text": "Что необходимо настроить в Logstash для получения логов?",
+      "correct_answer": "input"
+    },
+    {
+      "type": "text_answer",
+      "text": "Какой компонент ELK Stack отвечает за создание дашбордов?",
+      "correct_answer": "kibana"
+    },
+    {
+      "type": "text_answer",
+      "text": "Где хранятся логи в ELK Stack?",
+      "correct_answer": "elasticsearch"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "681a5726d6684927d8fa77dd"
+  },
+  "discipline": "DevOPS",
+  "course": "Bash",
+  "topic": "Основы Bash и работа с терминалом",
+  "title": "Урок 1: Что такое Bash и зачем он нужен",
+  "questions": [
+    {
+      "type": "text_answer",
+      "text": "Что такое Bash?",
+      "correct_answer": "оболочка командной строки"
+    },
+    {
+      "type": "text_answer",
+      "text": "Назовите одну из основных задач Bash.",
+      "correct_answer": "автоматизация"
+    },
+    {
+      "type": "text_answer",
+      "text": "Какой тип файлов пишется на Bash для автоматизации?",
+      "correct_answer": "cкрипты"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "681a5802d6684927d8fa77df"
+  },
+  "discipline": "DevOPS",
+  "course": "Bash",
+  "topic": "Основы Bash и работа с терминалом",
+  "title": "Урок 2: Основные команды и синтаксис Bash",
+  "questions": [
+    {
+      "type": "text_answer",
+      "text": "Команда для показа текущей директории:",
+      "correct_answer": "pwd"
+    },
+    {
+      "type": "text_answer",
+      "text": "Чем отделяются комментарии в Bash?",
+      "correct_answer": "#"
+    },
+    {
+      "type": "text_answer",
+      "text": "Какая команда используется для просмотра содержимого папки?",
+      "correct_answer": "ls"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "681a5be6d6684927d8fa77e2"
+  },
+  "discipline": "DevOPS",
+  "course": "Bash",
+  "topic": "Переменные и операторы",
+  "title": "Урок 1: Переменные и типы данных",
+  "questions": [
+    {
+      "type": "text_answer",
+      "text": "Как обратиться к значению переменной AGE?",
+      "correct_answer": "$age"
+    },
+    {
+      "type": "text_answer",
+      "text": "Какой символ используется для получения значения переменной?",
+      "correct_answer": "$"
+    },
+    {
+      "type": "text_answer",
+      "text": "Можно ли использовать пробелы при создании переменной (например x = 5)?",
+      "correct_answer": "нет"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "681a5d52d6684927d8fa77e4"
+  },
+  "discipline": "DevOPS",
+  "course": "Bash",
+  "topic": "Переменные и операторы",
+  "title": "Урок 2: Арифметические и логические операторы",
+  "questions": [
+    {
+      "type": "text_answer",
+      "text": "Какой символ используется для арифметики в Bash?",
+      "correct_answer": "$"
+    },
+    {
+      "type": "text_answer",
+      "text": "Напишите оператор, который проверяет, что x больше y.",
+      "correct_answer": "-gt"
+    },
+    {
+      "type": "text_answer",
+      "text": "Что вернёт echo $((10 % 3))?",
+      "correct_answer": "1"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "681a60d1d6684927d8fa77e7"
+  },
+  "discipline": "DevOPS",
+  "course": "Bash",
+  "topic": "Управляющие конструкции",
+  "title": "Урок 1: Условия: if, else, elif",
+  "questions": [
+    {
+      "type": "text_answer",
+      "text": "Как заканчивается блок if в Bash?",
+      "correct_answer": "fi"
+    },
+    {
+      "type": "text_answer",
+      "text": "Как проверить, существует ли файл log.txt?",
+      "correct_answer": "[-f log.txt]"
+    },
+    {
+      "type": "text_answer",
+      "text": "Какой оператор означает \"иначе если\"?",
+      "correct_answer": "elif"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "681a63e9d6684927d8fa77e9"
+  },
+  "discipline": "DevOPS",
+  "course": "Bash",
+  "topic": "Управляющие конструкции",
+  "title": "Урок 2: Циклы: for, while, until",
+  "questions": [
+    {
+      "type": "text_answer",
+      "text": "Какой цикл используется, чтобы повторять до наступления условия?",
+      "correct_answer": "until"
+    },
+    {
+      "type": "text_answer",
+      "text": "Какая команда инкрементирует значение переменной i на 1?",
+      "correct_answer": "((i++))"
+    },
+    {
+      "type": "text_answer",
+      "text": "Что выведет for i in 1 2 3; do echo $i; done?",
+      "correct_answer": "1 2 3"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "681a66d9d6684927d8fa77ec"
+  },
+  "discipline": "DevOPS",
+  "course": "Bash",
+  "topic": "Функции и скрипты",
+  "title": "Урок 1: Создание Bash-скриптов",
+  "questions": [
+    {
+      "type": "text_answer",
+      "text": "Какой шебанг используется в Bash-скриптах?",
+      "correct_answer": "#!/bin/bash"
+    },
+    {
+      "type": "text_answer",
+      "text": "Команда для запуска скрипта script.sh:",
+      "correct_answer": "./script.sh"
+    },
+    {
+      "type": "text_answer",
+      "text": "Команда для выдачи прав на запуск скрипта:",
+      "correct_answer": "chmod +x script.sh"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "681a6792d6684927d8fa77ee"
+  },
+  "discipline": "DevOPS",
+  "course": "Bash",
+  "topic": "Функции и скрипты",
+  "title": "Урок 2: Функции в Bash",
+  "questions": [
+    {
+      "type": "text_answer",
+      "text": "Как объявить функцию с именем hello?",
+      "correct_answer": "hello()"
+    },
+    {
+      "type": "text_answer",
+      "text": "Как получить первый аргумент внутри функции?",
+      "correct_answer": "$1"
+    },
+    {
+      "type": "text_answer",
+      "text": "Как вернуть результат из функции?",
+      "correct_answer": "echo"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "681a86eed6684927d8fa77f4"
+  },
+  "discipline": "DevOPS",
+  "course": "Сети и VPN",
+  "topic": "Основы компьютерных сетей",
+  "title": "Урок 1: Что такое сеть и как она устроена",
+  "questions": [
+    {
+      "type": "text_answer",
+      "text": "Протокол, лежащий в основе Интернета:",
+      "correct_answer": "tcp/ip"
+    },
+    {
+      "type": "text_answer",
+      "text": "Тип сети в пределах одного дома или офиса:",
+      "correct_answer": "lan"
+    },
+    {
+      "type": "text_answer",
+      "text": "Устройство, соединяющее разные сети:",
+      "correct_answer": "коммутатор"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "681a87a6d6684927d8fa77f6"
+  },
+  "discipline": "DevOPS",
+  "course": "Сети и VPN",
+  "topic": "Основы компьютерных сетей",
+  "title": "Урок 2: Модель OSI и уровни передачи данных",
+  "questions": [
+    {
+      "type": "text_answer",
+      "text": "Уровень, на котором работает IP:",
+      "correct_answer": "сетевой"
+    },
+    {
+      "type": "text_answer",
+      "text": "Протокол прикладного уровня:",
+      "correct_answer": "http"
+    },
+    {
+      "type": "text_answer",
+      "text": "MAC-адрес относится к … уровню:",
+      "correct_answer": "канальному"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "681a889ad6684927d8fa77f9"
+  },
+  "discipline": "DevOPS",
+  "course": "Сети и VPN",
+  "topic": "Инструменты и диагностика сети",
+  "title": "Урок 1: Команды ping, traceroute, netstat",
+  "questions": [
+    {
+      "type": "text_answer",
+      "text": "Команда для проверки маршрута до хоста:",
+      "correct_answer": "traceroute"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "681a88f6d6684927d8fa77fb"
+  },
+  "discipline": "DevOPS",
+  "course": "Сети и VPN",
+  "topic": "Инструменты и диагностика сети",
+  "title": "Урок 2: Настройка IP и работа с ifconfig/ip",
+  "questions": [
+    {
+      "type": "text_answer",
+      "text": "Современная команда для настройки сети:",
+      "correct_answer": "ip"
+    },
+    {
+      "type": "text_answer",
+      "text": "Команда для вывода всех IP-адресов:",
+      "correct_answer": "ip a"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "681a8a6fd6684927d8fa77fe"
+  },
+  "discipline": "DevOPS",
+  "course": "Сети и VPN",
+  "topic": "Основы VPN и настройка",
+  "title": "Урок 1: Что такое VPN и зачем он нужен",
+  "questions": [
+    {
+      "type": "text_answer",
+      "text": "Расшифруйте аббревиатуру VPN:",
+      "correct_answer": "virtual private network"
+    },
+    {
+      "type": "text_answer",
+      "text": "Какой протокол VPN считается самым быстрым и современным?",
+      "correct_answer": "wireguard"
+    },
+    {
+      "type": "text_answer",
+      "text": "Что обеспечивает VPN?",
+      "correct_answer": "шифрование трафика"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "681a96b6d6684927d8fa7804"
+  },
+  "discipline": "DevOPS",
+  "course": "С 0 до Linux администратора",
+  "topic": "Введение в Linux",
+  "title": "Урок 1: Что такое Linux и зачем он нужен",
+  "questions": [
+    {
+      "type": "text_answer",
+      "text": "Как называется ядро, на котором основан Linux?",
+      "correct_answer": "linux"
+    },
+    {
+      "type": "text_answer",
+      "text": "Что означает термин \"Open Source\"?",
+      "correct_answer": "открытый исходный код"
+    },
+    {
+      "type": "text_answer",
+      "text": "Где чаще всего используется Linux?",
+      "correct_answer": "сервера"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "681a976dd6684927d8fa7806"
+  },
+  "discipline": "DevOPS",
+  "course": "С 0 до Linux администратора",
+  "topic": "Введение в Linux",
+  "title": "Урок 2: Дистрибутивы Linux: Ubuntu, CentOS, Debian и др.",
+  "questions": [
+    {
+      "type": "text_answer",
+      "text": "Какой дистрибутив наиболее дружелюбен для новичков?",
+      "correct_answer": "ubuntu"
+    },
+    {
+      "type": "text_answer",
+      "text": "Какой пакетный менеджер используется в Debian?",
+      "correct_answer": "apt"
+    },
+    {
+      "type": "text_answer",
+      "text": "Какой дистрибутив основан на принципе \"минимализм и контроль\"?",
+      "correct_answer": "arch"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "681a986bd6684927d8fa7808"
+  },
+  "discipline": "DevOPS",
+  "course": "С 0 до Linux администратора",
+  "topic": "Введение в Linux",
+  "title": "Урок 3: Установка Linux в виртуальной машине (VirtualBox/VMware)",
+  "questions": [
+    {
+      "type": "text_answer",
+      "text": "Какой формат используется для загрузочного образа дистрибутива Linux?",
+      "correct_answer": "iso"
+    },
+    {
+      "type": "text_answer",
+      "text": "Название бесплатной VM-среды от Oracle?",
+      "correct_answer": "virtualbox"
+    },
+    {
+      "type": "text_answer",
+      "text": "Каков минимальный рекомендуемый объем ОЗУ (в ГБ) для установки Linux в VM?",
+      "correct_answer": "2"
+    }
+  ]
+}]

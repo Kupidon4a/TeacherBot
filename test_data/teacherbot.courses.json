@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "6818beda23341fe8480bd492"
+  },
+  "discipline": "DevOPS",
+  "course": "С Linux администратора до DevOPS"
+},
+{
+  "_id": {
+    "$oid": "6818beda23341fe8480bd493"
+  },
+  "discipline": "DevOPS",
+  "course": "С 0 до Linux администратора"
+},
+{
+  "_id": {
+    "$oid": "6818beda23341fe8480bd494"
+  },
+  "discipline": "DevOPS",
+  "course": "Bash"
+},
+{
+  "_id": {
+    "$oid": "6818beda23341fe8480bd495"
+  },
+  "discipline": "DevOPS",
+  "course": "Сети и VPN"
+}]
